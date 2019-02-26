@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-          © 2018 X
+          © 2019 {process.env.REACT_APP_WEBSITE_NAME}
       </div>
     )
   }
